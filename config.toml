@@ -1,0 +1,76 @@
+
+baseurl     = "https://pocketstudio.net"  # the baseurl for your website
+title       = "Pocketstudio Technology Log"     # blog title
+paginate    = 10                    # the number of posts on a page
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/:year/:month/:day/:slug/"
+
+[author]
+    # Optional. Used in RSS feed meta information.
+    name = "Masahito Zembutsu"
+    email = "m.zembutsu <at> gmail <dot> com"
+
+[params]
+    # language code for your website
+    languagecode = "ja"
+
+    # name of the site author; used in header meta information
+    author = "Masahito Zembutsu"
+
+    # copyright text; used in footer
+    copyright = "2016 ~ @zembutsu a.k.a Masahito Zembutsu"
+
+    # social links, used in footer, these must be full URLs.
+    twitter     = "https://twitter.com/zembutsu"
+    github      = "https://github.com/zembutsu"
+    facebook    = "https://www.facebook.com/zembutsu"
+#    delicious   = "https://delicious.com/<username>"
+#    linkedin    = "https://www.linkedin.com/in/<username>"
+#    flickr      = "https://www.flickr.com/photos/<username>"
+
+    # show default summaries on the frontpage or not
+#    use_summaries = true
+    
+
+# naming of the elements in your blog/site
+[params.strings]
+    # name of the link to the homepage
+    home_navbar_link = "Home"
+
+    # name of the link to the blog page
+    blog_navbar_link = "Blog"
+
+    # name of the header used in the post list page
+    posts_list_header = "Posts"
+
+    # used date format
+    date_format = '02.01.2006'
+
+[params.theme]
+    inverse = true     # indicating if the theme should use inversed colors
+    # name = "cerulean"   # name of the theme to use
+
+    # list of possible theme names that can be used
+    # name = "cerulean"
+    # name = "cosmo"
+    # name = "cyborg"
+    # name = "default"
+    # name = "flatly"
+    # name = "journal"
+    # name = "lumen"
+    # name = "paper"
+     name = "readable"
+    # name = "sandstone"
+    # name = "simplex"
+    # name = "slate"
+    # name = "spacelabs"
+    # name = "superhero"
+    # name = "united"
+    # name = "yeti"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
