@@ -1,5 +1,5 @@
 ﻿+++
-date = "2017-06-01T17:46:00+09:00"
+date = "2017-07-29T12:50:00+09:00"
 draft = false
 slug = "hashicorp-nomad-0-6-translate.md"
 title = "【参考訳】HashiCorp Nomad 0.6"
