@@ -79,7 +79,7 @@ Kubernetes コミュニティは開発ワークステーションで限定的な
 
 Docker for Mac と Windows における Kubernetes サポートが見えてきたので、開発者は docker-compose と Swarm をベースとしたアプリケーションの両方を構築し、Kubernetes 上へデプロイ可能なアプリケーション設計が簡単になります。そのため、ノート PC やワークステーション上で使うには最良の選択肢となるでしょう。全てのコンテナ・タスク（biuld だけでなく run や push ）を、イメージ、ボリューム、コンテナが共通の同じ Docker インスタンス上で実行できます。そして、それらは最新かつ良い Docker プラットフォームのバージョンをベースとしているため、Kubernetes デスクトップ利用者に対して [マルチステージ・ビルド](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) のような拡張機能を扱えるようにします。
 
-Docker に対する Kubernetes 取り組み成果の一部に、Kubernetes コンポーネントのカスタム・リソースを使う物や、API サーバ統合レイヤがあります。これらにおｙり、Docker Compose アプリを Kubernetes ネイティブ Pot やサービスとしてシンプルにデプロイ可能となります。これらのコンポーネントは Docker EE と Docker CE for Mac と Windows でも提供していきます。
+Docker に対する Kubernetes 取り組み成果の一部に、Kubernetes コンポーネントのカスタム・リソースを使う物や、API サーバ統合レイヤがあります。これらにより、Docker Compose アプリを Kubernetes ネイティブ Pot やサービスとしてシンプルにデプロイ可能となります。これらのコンポーネントは Docker EE と Docker CE for Mac と Windows でも提供していきます。
 
 * [Kubernetes in Docker for Mac (YouTube)](https://www.youtube.com/watch?v=jWupQjdjLN0)
 
